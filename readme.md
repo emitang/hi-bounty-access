@@ -192,8 +192,6 @@ Self-examination tracks to explore:
 
 ## Dataset Considerations
 
-### Statistical Checks 
-
 Who compiled your dataset? What are the demographics you’re considering? Certain types of audio samples and certain demographic groups will always be more widely available. When compiling the dataset, has care been put into choosing audio samples? Do the samples chosen reflect the types of speakers you will be running through the model? 
 
 What is the intended use of the model after it has been developed? How might you tune your dataset and labels with that in mind? Depending on the scenarios your model may be working with or the demographics of the average user, you may have to prioritize specific types of audio samples. 
