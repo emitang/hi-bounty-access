@@ -2,23 +2,23 @@
 
 *This is for the [Humane Intelligence Accessibility bias bounty](https://humane-intelligence.org/programs-services/bias-bounty/accessibility-challenge-set-4/)*
 
-## Purpose {#purpose}
+## Purpose
 
 This guide and analysis is to help you think about the ways your personal experiences and unconscious biases impact the way you read intent and emotion into a speaker’s tone of voice. We will discuss common forms of unconscious bias that appear in the sample of audio clips. Additionally, we will explore unconscious biases that apply to smaller groups of people that may not be well-represented in the average dataset, and consider how to continue self-examination in order to combat forms of bias that may come up in the future. 
 
-## Why This Matters {#matters}
+## Why This Matters
 
 When training an AI model, the results can only be as good as what has been fed into it. An AI model is not performing objective calculations–it merely learns to recognize patterns based on the data and labels it is given. Bias in, bias out. Given that these labels are applied by humans who have been shaped by their environment, these machines will only serve to amplify the biases that these humans have acquired along the way. Furthermore, the average dataset will be composed mostly of samples from majority groups, and labels and training will be shaped by how these groups experience and understand the world. This underrepresentation of minority groups results in models that either poorly reflect their experiences or fail to reflect them at all. 
 
 **Key Principle:** Every aspect of your identity, upbringing, cultural background, and environment can influence how you express and interpret emotions. When we fail to consider the diversity of human experience, we build models that amplify bias and allow groups to fall through the cracks. 
 
-## Personal Reflections on Labeling Exercise {#reflections}
+## Personal Reflections on Labeling Exercise
 
 ### Considerations Before Beginning
 
 I am myself neurodivergent, and was raised within the contexts of multiple cultural norms around communicating. I know I tend to overly attribute negative emotions to anything on the neutral or flatter side of tone. I also tend to take words at face value, so I may miss things like sarcasm, hyperbole, and disingenuous communication. I also approached with the assumption that the task was to attempt to label only based on tone, rather than going off of what the words were saying. I also can struggle with naming and classifying emotions, especially with placing more granular emotions (such as calm, upset, or determined) under broader umbrella terms like the four labels given. 
 
-I went into the exercise aware of the impact of several common forms of unconscious bias that I have further explored in the section titled [Anticipated Biases in Emotion Labeling”](#anticipated). As I went through the exercise, I gradually came up with more aspects of a voice that could cause bias. Some of these aspects were represented in the database, some were sparked by thinking about other tangentially related biases I was thinking over. These I document in the section titled [Emerging Biases in Emotion Labeling](#emerging). 
+I went into the exercise aware of the impact of several common forms of unconscious bias that I have further explored in the section titled "Anticipated Biases in Emotion Labeling”. As I went through the exercise, I gradually came up with more aspects of a voice that could cause bias. Some of these aspects were represented in the database, some were sparked by thinking about other tangentially related biases I was thinking over. These I document in the section titled "Emerging Biases in Emotion Labeling". 
 
 I did notice immediately that the audio file names all began with a letter indicating the valence label. I used an operation in bash to remove the first two characters of each file name in one fell swoop to avoid skewing my evaluations (even by seeing how many files of each type of emotion there were meant to be). This means I went through the samples in a different order than they are listed in the original folder. I would suggest providing a duplicate folder of the audio files but without the labels in the future. 
 
@@ -49,7 +49,7 @@ After evaluating my results, I think my concerns around naming more granular and
 
 The samples were all over the place in terms of manner of speaking. There were people who sounded like they were reading instructions out loud, people who sounded like they were leaving a voicemail, people who sounded like they were acting and had been told to read the line with some emotional direction. I know the way I perceived the “sincerity” of the speaker’s feelings impacted the way I interpreted the emotions. At times I felt like I was evaluating emotions based on how characters in kids’ movies portray them, i.e. emotions done larger and louder so children can better understand.
 
-## Anticipated Biases in Emotion Labeling {#anticipated}
+## Anticipated Biases in Emotion Labeling
 
 ### 1. Gender Bias
 #### The Problem:
@@ -105,7 +105,7 @@ The samples were all over the place in terms of manner of speaking. There were p
 - Focus on content of audio, rather than perceived age of speaker.
 - Examine whether certain emotions are overattributed to different age ranges.
 
-## Emerging Biases in Emotion Labeling {#emerging}
+## Emerging Biases in Emotion Labeling
 
 ### 1. HRT/vocally trained voice Bias
 #### The Problem:
